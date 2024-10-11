@@ -1,0 +1,42 @@
+/* Cambiare il font e aumentare la grandezza del testo della navbar */
+.navbar-brand, .navbar-nav > li > a {
+    font-size: 20px; /* Cambia questo valore in base alle tue esigenze */
+}
+
+/* Aumentare l'altezza della navbar */
+.navbar {
+    min-height: 70px; /* Cambia questo valore in base alle tue esigenze */
+}
+
+.navbar-nav > li > a {
+    line-height: 70px; /* Questo valore dovrebbe essere uguale all'altezza della navbar */
+}
+
+/* Allineare il titolo della navbar */
+.navbar-brand {
+    height: 70px; /* Assicurarsi che l'altezza corrisponda alla navbar */
+    line-height: 50px; /* Cambia questo valore in base alle tue esigenze */
+    padding-top: 20px; /* Aggiusta questo valore in base all'altezza totale */
+    padding-bottom: 10px; /* Aggiusta questo valore in base all'altezza totale */
+}
+
+/* Cambiare il colore della navbar */
+.navbar {
+    background-color: #008080; /* Colore di sfondo della navbar */
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    color: #FFFFFF !important; /* Colore del testo della navbar */
+}
+
+/* Cambiare il colore di sfondo generale della pagina */
+body {
+    background-color: #bdc3c7; /* Cambia questo valore in base alle tue esigenze */
+    color: #000000; /* Colore del testo (nero) */
+}
+
+/* Cambiare il colore del testo del sidebarPanel */
+.well {
+    color: #FFFFFF; /* Colore del testo nero */
+    background-color: #008080;
+}
